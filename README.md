@@ -30,7 +30,6 @@ npm run preview
 
 ## Architecture & Design Decisions
 
-
 quiz-app/
 ├── src/
 │   ├── pages/
@@ -45,7 +44,6 @@ quiz-app/
 ├── vite.config.js
 ├── eslint.config.js
 └── README.md
-
 
 ### Component Structure
 - **src/App.jsx**: Root component with React Router setup and conditional navigation
