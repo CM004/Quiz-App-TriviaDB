@@ -28,16 +28,20 @@ nav .brand + .brand { margin-left: 1rem; }
 .actions button { flex: 1; min-width: 140px; }
 
 @media (max-width: 480px) { .actions button { min-width: 100px; } }
-/* Light mode (default) */
+
 .app-container {
-    background-color: #ffffff;
-    color: #000000;
+  background-color: var(--background-color);
+  color: var(--text-color);
 }
 
-/* Dark mode */
-@media (prefers-color-scheme: dark) {
-    .app-container {
-        background-color: #121212;
-        color: #ffffff;
-    }
+.card {
+  background: var(--card-bg);
+}
+
+.option {
+  background: var(--option-bg);
+}
+
+.actions button {
+  background-color: var(--button-bg);
 }
