@@ -30,6 +30,7 @@ npm run preview
 
 ## Architecture & Design Decisions
 
+```text
 quiz-app/
 ├── src/
 │   ├── pages/
